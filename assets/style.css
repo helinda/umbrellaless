@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    height: 100%;
+    font-family: "Helvetica Neue", "Open Sans", Helvetica, sans-serif;
+    font-weight: lighter; 
+    background-color: #f4f3ef;
+	cursor: default;
+
+}
+
+#content {
+    height: 100%;
+}
+
+#tophalf-container {
+    margin-left:auto;
+    margin-right: auto;
+    height: 450px;
+    background-color: #e9e8e4;
+}
+
+#tophalf {
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+
+}
+
+#logo-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px;
+	height: 90px;
+	display: none;
+}
+
+#logo-img {
+	height: auto;
+	width: auto;
+	max-height: 60px;
+}
+
+#slogan {
+	padding-left: 6px;
+	padding-top: 3px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	display: none;
+	text-align: center;
+}
+
+#weather-container {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 425px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 15px;
+	display: none;
+}
+
+
+#bottomhalf-container {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-bottom: 0px;
+}
+
+#bottomhalf {
+	padding-top: 50px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 150px;
+}
+
+#beginbutton {
+    display: none;
+    transition: all 0.2s ease-out;
+    -webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+
+    width: 150px;
+    height: 60px;
+    background-color: #83a6ff;
+    border-radius: 10px;
+    color: white;
+}
+
+#beginbutton:hover{
+	transition: all 0.2s ease-out;
+	-webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+	background-color:#b4c9ff;
+}
+
+#beginbutton-text {
+	margin-left:auto;
+	margin-right: auto;
+	width: 80px;
+	padding-top:10px;
+	font-size: 2em;
+	cursor: default;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+#weather-content {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 375px;
+	padding-top: 25px; 
+	/*text-align: center;*/
+	height: 150px;	
+}
+
+#location {
+	text-align: center;
+	font-size: 35px;
+	padding-top: 10px;
+	
+}
+
+#weather-info {
+	height: 100px;
+	padding-left: 80px;		
+}
+
+#weather-img{
+	padding-top: 30px;
+	padding-left: 20px;
+	float: left;
+}
+
+#weather-temp {
+	float: left;
+	padding-top: 24px;
+	padding-left: 10px;
+	width: 200px;
+}
+
+#search-container{
+	margin-right: auto;
+	margin-left: auto;
+	width: 375px;
+	height: 100%;
+	display: none;
+	text-align:center;
+}
+
+#search-header {
+	padding-top: 50px;
+	display: none;
+	font-size: 20px;
+	
+}
+
+#search-results {
+	display: none;
+	width: 375px;
+	height: 175px;
+	background-color: white;
+	border-radius: 20px;
+	margin-top: 50px;
+	padding-top:30px;
+	font-size: 20px;
+}
+
+#search-result1 {
+	padding-bottom: 30px;
+	display: none;
+}
+
+#search-result2 {
+	padding-bottom: 30px;
+	display: none;
+}
+
+#search-result3 {
+	display: none;
+}
+
+#morebutton {
+	display: none;
+	float: left;
+	transition: all 0.2s ease-out;
+	-webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+
+    width: 100px;
+	padding-top: 15px;
+    height: 35px;
+    background-color: #83a6ff;
+    border-radius: 10px;
+    color: white;
+	margin-right: 65px;
+	letter-spacing: 1px;
+}
+
+#morebutton:hover{
+	transition: all 0.2s ease-out;
+	-webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+	background-color:#b4c9ff;
+}
+
+#backbutton {
+	display: none;
+	float: left;
+	transition: all 0.2s ease-out;
+	-webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+
+    width: 100px;
+	padding-top: 15px;
+    height: 35px;
+    background-color: #83a6ff;
+    border-radius: 10px;
+    color: white;
+	letter-spacing: 1px;
+}
+
+#backbutton:hover{
+	transition: all 0.2s ease-out;
+	-webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+	background-color:#b4c9ff;
+}
+
+#button-wrapper {
+	padding-top: 30px;
+	padding-left: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 425px;
+	height: 40px;
+}
